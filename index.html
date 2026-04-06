@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Subrata Studio — A premium creative digital agency crafting immersive web experiences with cutting-edge design and technology.">
+    <title> Creative Agency Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("sgSxTPb_oCSlS8j53");
+        })();
+    </script>
+</head>
+
+<body>
+
+    <div id="cursor-glow"></div>
+    <div id="floating-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+        <div class="shape shape-6"></div>
+        <div class="shape shape-7"></div>
+        <div class="shape shape-8"></div>
+    </div>
+
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" id="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">SUBRATA DEV</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Work</a></li>
+                <li><a href="#testimonials" class="nav-link">Clients</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-cta" id="nav-cta">Let's Talk</button>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <section id="hero" class="section hero-section">
+        <div class="hero-content">
+            <div class="hero-badge" data-animate="fade-up">
+                <span class="badge-dot"></span>
+                Available for Projects — 2026
+            </div>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                <span class="title-line">We Craft</span>
+                <span class="title-line title-highlight">
+                    <span class="highlight-word">Digital</span>
+                </span>
+                <span class="title-line">Experiences</span>
+            </h1>
+            <p class="hero-description" data-animate="fade-up" data-delay="200">
+                Award-winning digital agency specializing in immersive web design,<br>
+                brand strategy, and cutting-edge creative technology.
+            </p>
+            <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                <a href="#portfolio" class="btn btn-primary" id="hero-cta-primary">
+                    <span>View My Work</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" />
+                    </svg>
+                </a>
+                <a href="#about" class="btn btn-ghost" id="hero-cta-secondary">
+                    <span>Learn More</span>
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="150">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-label">4 Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="98">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-3d-scene" id="hero-scene" data-animate="fade-left" data-delay="200">
+            <div class="cube-container">
+                <div class="cube">
+                    <div class="cube-face cube-front"></div>
+                    <div class="cube-face cube-back"></div>
+                    <div class="cube-face cube-right"></div>
+                    <div class="cube-face cube-left"></div>
+                    <div class="cube-face cube-top"></div>
+                    <div class="cube-face cube-bottom"></div>
+                </div>
+            </div>
+            <div class="orbit-ring orbit-1">
+                <div class="orbit-dot"></div>
+            </div>
+            <div class="orbit-ring orbit-2">
+                <div class="orbit-dot"></div>
+            </div>
+            <div class="orbit-ring orbit-3">
+                <div class="orbit-dot"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" data-animate="fade-up" data-delay="500">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">We bring <em>ideas</em> to life<br>through design & code</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text" data-animate="fade-right">
+                    <p class="about-lead">
+                        SUBRATA Studio is a collective of designers, developers, and strategists
+                        who believe in the power of exceptional digital experiences.
+                    </p>
+                    <p>
+                        Founded in 2026, we've partnered with startups and Fortune 500 companies alike,
+                        delivering solutions that push creative boundaries while driving measurable results.
+                        Our approach combines artistic vision with technical excellence.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">✦</div>
+                            <div>
+                                <h4>Design-First Approach</h4>
+                                <p>Every project starts with deep research and human-centered design thinking.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">◈</div>
+                            <div>
+                                <h4>Technical Excellence</h4>
+                                <p>Clean, performant code built with modern best practices and scalability in mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-animate="fade-left">
+                    <div class="tilt-card" id="about-card">
+                        <div class="tilt-card-inner">
+                            <div class="card-pattern"></div>
+                            <div class="card-content">
+                                <span class="card-year">EST. 2026</span>
+                                <h3>Crafting the<br>Future of Digital</h3>
+                                <div class="card-stats">
+                                    <div><strong>35+</strong><span>Team Members</span></div>
+                                    <div><strong>4</strong><span>Global Offices</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Services tailored to<br><em>elevate</em> your brand</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="0" id="service-1">
+                    <div class="service-card-inner">
+                        <div class="service-number">01</div>
+                        <div class="service-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <path d="M3 9h18M9 21V9" />
+                            </svg>
+                        </div>
+                        <h3>Web Design & Development</h3>
+                        <p>Responsive websites that captivate users and drive conversions through
+                            intuitive design.</p>
+                        <ul class="service-tags">
+                            <li>UI/UX Design</li>
+                            <li>Frontend Development</li>
+                            <li>Backend Deplopment</li>
+                            <li>FULL STACK Deplopment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="100" id="service-2">
+                    <div class="service-card-inner">
+                        <div class="service-number">02</div>
+                        <div class="service-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <circle cx="12" cy="12" r="9" />
+                                <path d="M12 3a14.5 14.5 0 0 1 0 18 14.5 14.5 0 0 1 0-18M3 12h18" />
+                            </svg>
+                        </div>
+                        <h3>Brand Identity & Strategy</h3>
+                        <p>Comprehensive branding solutions that define your visual language and create lasting market
+                            impressions.</p>
+                        <ul class="service-tags">
+                            <li>Logo Design</li>
+                            <li>Brand Guide</li>
+                            <li>Strategy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="200" id="service-3">
+                    <div class="service-card-inner">
+                        <div class="service-number">03</div>
+                        <div class="service-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
+                            </svg>
+                        </div>
+                        <h3>Interactive Experiences</h3>
+                        <p>Immersive 3D experiences, animations, and interactive installations that push creative
+                            boundaries.</p>
+                        <ul class="service-tags">
+                            <li>3D/WebGL</li>
+                            <li>Animation</li>
+                            <li>AR/VR</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="300" id="service-4">
+                    <div class="service-card-inner">
+                        <div class="service-number">04</div>
+                        <div class="service-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                            </svg>
+                        </div>
+                        <h3>Performance & Growth</h3>
+                        <p>Data-driven optimization strategies that accelerate growth and maximize digital performance.
+                        </p>
+                        <ul class="service-tags">
+                            <li>SEO</li>
+                            <li>Analytics</li>
+                            <li>Conversion</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Selected <em>projects</em> that<br>define our craft</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card portfolio-large" data-animate="fade-up" id="project-1">
+                    <div class="portfolio-card-inner">
+                        <div class="portfolio-image"
+                            style="--gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <div class="portfolio-3d-element">
+                                <div class="p3d-cube">
+                                    <div class="p3d-face p3d-front"></div>
+                                    <div class="p3d-face p3d-back"></div>
+                                    <div class="p3d-face p3d-left"></div>
+                                    <div class="p3d-face p3d-right"></div>
+                                    <div class="p3d-face p3d-top"></div>
+                                    <div class="p3d-face p3d-bottom"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Web Design / Development</span>
+                            <h3>Quantum Finance Platform</h3>
+                            <p>A next-gen fintech dashboard with real-time analytics and AI-powered insights.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-animate="fade-up" data-delay="100" id="project-2">
+                    <div class="portfolio-card-inner">
+                        <div class="portfolio-image"
+                            style="--gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <div class="portfolio-3d-element">
+                                <div class="p3d-ring">
+                                    <div class="ring-segment"></div>
+                                    <div class="ring-segment"></div>
+                                    <div class="ring-segment"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Brand Identity</span>
+                            <h3>Aurora Health</h3>
+                            <p>Complete rebrand for a wellness tech startup.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-animate="fade-up" data-delay="200" id="project-3">
+                    <div class="portfolio-card-inner">
+                        <div class="portfolio-image"
+                            style="--gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <div class="portfolio-3d-element">
+                                <div class="p3d-pyramid">
+                                    <div class="pyramid-face pyramid-front"></div>
+                                    <div class="pyramid-face pyramid-back"></div>
+                                    <div class="pyramid-face pyramid-left"></div>
+                                    <div class="pyramid-face pyramid-right"></div>
+                                    <div class="pyramid-face pyramid-base"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Interactive / 3D</span>
+                            <h3>SkyVault Experience</h3>
+                            <p>Immersive product showcase with 3D interactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card portfolio-large" data-animate="fade-up" data-delay="100" id="project-4">
+                    <div class="portfolio-card-inner">
+                        <div class="portfolio-image"
+                            style="--gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                            <div class="portfolio-3d-element">
+                                <div class="p3d-sphere">
+                                    <div class="sphere-ring sphere-ring-1"></div>
+                                    <div class="sphere-ring sphere-ring-2"></div>
+                                    <div class="sphere-ring sphere-ring-3"></div>
+                                    <div class="sphere-core"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">App Design / Strategy</span>
+                            <h3>EcoTrack Mobile App</h3>
+                            <p>An award-winning sustainability tracking platform with gamified user engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimonials" class="section testimonials-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">Trusted by <em>industry</em><br>leaders worldwide</h2>
+            </div>
+            <div class="testimonials-track" id="testimonials-track">
+                <div class="testimonial-card" data-animate="fade-up" id="testimonial-1">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote>
+                            "Web development is the process of building and maintaining websites, encompassing
+                            everything
+                            from simple plain-text pages to complex web applications and social network services."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="--hue: 250;">JC</div>
+                            <div>
+                                <strong>Subrata Garai</strong>
+                                <span>CEO, web development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate="fade-up" data-delay="100" id="testimonial-2">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote>
+                            "Working with Alice Muhuhu was an absolute game-changer. They didn't just build us a website
+                            —
+                            they crafted an experience that our users love. Truly world-class work."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="--hue: 340;">SM</div>
+                            <div>
+                                <strong>Alice Muhuhu</strong>
+                                <span>Founder, Aurora Health</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate="fade-up" data-delay="200" id="testimonial-3">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote>
+                            "The interactive experience Roshmik Saha created for our product launch was nothing
+                            short of spectacular. It generated massive buzz and set a new industry standard."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="--hue: 180;">DL</div>
+                            <div>
+                                <strong>Roshmik Saha </strong>
+                                <span>CTO, SkyVault Technologies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee-section" aria-hidden="true">
+        <div class="marquee-track">
+            <span>UI/UX Design</span><span>◆</span>
+            <span>FRONTEND DEVELOPMENT</span><span>◆</span>
+            <span>BACKEND DEVELOPMENT</span><span>◆</span>
+            <span>FULL STACK DEVELOPMENT</span><span>◆</span>
+        </div>
+    </div>
+
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info" data-animate="fade-right">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Let's build<br>something <em>amazing</em><br>together</h2>
+                    <p>Ready to transform your digital presence? Let's discuss your project and explore how we can
+                        create something extraordinary.</p>
+                    <div class="contact-details">
+                        <a href="mailto:Subratagarai514@gmail.com" class="contact-link" id="contact-email">
+                            <span class="contact-link-icon">✉</span>
+                            Subratagarai514@gmail.com
+                        </a>
+                        <a href="tel:+1234567890" class="contact-link" id="contact-phone">
+                            <span class="contact-link-icon">☎</span>
+                            +918918808600
+                        </a>
+                        <div class="contact-link" id="contact-location">
+                            <span class="contact-link-icon">◎</span>
+                            Bansdiha,Garbeta-III, West Bengal
+
+
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" id="social-twitter" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link" id="social-dribbble" aria-label="Dribbble">◉</a>
+                        <a href="#" class="social-link" id="social-github" aria-label="GitHub">⌥</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-animate="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter a Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type">
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="web">Web Design & Development</option>
+                                <option value="UI/UX Design">UI/UX Design</option>
+                                <option value="Frontend">Frontend Development</option>
+                                <option value="Backend">Backend Development</option>
+                                <option value="Full">Full Stack Development</option>
+                                <option value="Software">Software Developer</option>
+                                <option value="System">System Design</option>
+                                <option value="brand">Brand Identity</option>
+                                <option value="interactive">Interactive Experience</option>
+
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">◆</span>
+                        <span class="logo-text">SUBRATA DEV</span>
+                    </a>
+                    <p>Crafting digital experiences that inspire, engage, and deliver results since 2014.</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Work</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> 2026 SUBRATA Studio. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
